@@ -38,6 +38,20 @@ h5 {
   font-size: 2.5rem;
 }
 
+button {
+  background-color: rgba(15, 149, 190, 0.795);
+  padding: 1.5rem 4.5rem;
+  border: none;
+  border-radius: 2rem;
+  color: aliceblue;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color: #131c27;
+}
+
 /* Section Navbar  */
 
 .main-head {
@@ -79,4 +93,24 @@ h5 {
   background-color: aliceblue;
   color: #131c27;
   border-radius: 2rem;
+}
+
+/* Section Home  */
+
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), transparent),
+    url('./images/section1.jpg');
+  min-height: 90vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  text-align: center;
+}
+
+.home h3 {
+  padding-bottom: 3rem;
 }
