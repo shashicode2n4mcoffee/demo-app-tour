@@ -114,3 +114,26 @@ button:hover {
 .home h3 {
   padding-bottom: 3rem;
 }
+
+/* SECTION LOCATIONS  */
+
+/* SECTION BENFITS  */
+
+.benefits {
+  height: 100vh;
+}
+
+.benefits-head {
+  background-color: #131c27;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  text-align: center;
+}
+
+.benefits-head h3 {
+  padding-top: 5rem;
+}
